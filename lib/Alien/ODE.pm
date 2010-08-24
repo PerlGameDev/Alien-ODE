@@ -52,8 +52,8 @@ like this:
                     'Alien::ODE' => 0,
                     # + others modules
       },
-      extra_compiler_flags => [ Alien::ODE->config('cflags') ],
-      extra_linker_flags   => [ Alien::ODE->config('libs') ],
+      extra_compiler_flags => Alien::ODE->config('cflags'),
+      extra_linker_flags   => Alien::ODE->config('libs'),
     )->create_build_script;
 
 NOTE: Alien::ODE is required only for building not for using 'Any::ODE::Module'.
