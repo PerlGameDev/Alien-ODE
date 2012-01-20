@@ -3,7 +3,7 @@
 
 int main()
 {
-  printf("sizeof(dReal)=%d\n",sizeof(dReal));
+  printf("sizeof(dReal)=%lu\n", sizeof(dReal));
 
   dInitODE();
   dWorldID W = dWorldCreate();
