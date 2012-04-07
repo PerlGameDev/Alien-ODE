@@ -28,8 +28,13 @@ sub build_binaries {
     $self->do_system($cmd) or die "###ERROR### [$?] during ./configure ... ";
   }
 
+  my $cxxflags = '-O3';
+  $cxxflags   .= " $1" if $Config{cccdlflags} =~ /((-[df]PIC\s+)?-[df]PIC)/i;
+
   # do 'make install'
   my @cmd = ($self->get_make, 'install');
+  push @cmd, "CXXFLAGS=$cxxflags" if $cxxflags;
+
   print "Running make install ...\n";
   print "(cmd: ".join(' ',@cmd).")\n";
   $self->do_system(@cmd) or die "###ERROR### [$?] during make ... ";
