@@ -13,11 +13,11 @@ Alien::ODE - Build and make available ODE library - L<http://ode.org/>
 
 =head1 VERSION
 
-Version 1.0
+Version 0.001
 
 =cut
 
-our $VERSION = '1.0';
+our $VERSION = '0.001';
 $VERSION = eval $VERSION;
 
 =head1 SYNOPSIS

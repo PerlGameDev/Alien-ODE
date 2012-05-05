@@ -2,7 +2,7 @@ NAME
     Alien::ODE - Build and make available ODE library - <http://ode.org/>
 
 VERSION
-    Version 1.0
+    Version 0.001
 
 SYNOPSIS
     Alien::ODE during its installation does one of the following:
