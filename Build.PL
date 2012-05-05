@@ -49,7 +49,7 @@ my $build = $package->new(
   meta_merge => {
     resources  => {
       bugtracker => 'https://github.com/PerlGameDev/Alien-ODE/issues',
-      repository => 'http://github.com/PerlGameDev/Alien-ODE'
+      repository => 'https://github.com/PerlGameDev/Alien-ODE'
     }
   },
   create_readme => 1,
