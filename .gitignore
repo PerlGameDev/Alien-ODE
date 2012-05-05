@@ -1,6 +1,14 @@
 blib*
 Build
 _build*
+/build_*
+/share*
 pm_to_blib*
 *.tar.gz
-META.yml
+META.*
+MYMETA.*
+MANIFEST
+*.o
+*.obj
+*.exe
+/t/test1

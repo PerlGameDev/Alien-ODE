@@ -1,11 +1,12 @@
-.git
+\.git
 _build
 stage
 blib
 deps
 ^Build$
-^Build.bat$
-^MYMETA.yml$
+^Build\.bat$
+^MYMETA\.yml$
+^MYMETA\.json$
 ^tmp
 ^build_
 ^download
@@ -18,3 +19,5 @@ deps
 \.o$
 \.obj$
 \.exe$
+^TODO$
+^t/test1$
