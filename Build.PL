@@ -48,7 +48,7 @@ my $build = $package->new(
   },
   meta_merge => {
     resources  => {
-      bugtracker => 'http://rt.cpan.org/NoAuth/Bugs.html?Dist=Alien-ODE',
+      bugtracker => 'https://github.com/PerlGameDev/Alien-ODE/issues',
       repository => 'http://github.com/PerlGameDev/Alien-ODE'
     }
   },

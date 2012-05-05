@@ -55,7 +55,7 @@ METHODS
 
 BUGS
     Please post issues and bugs at
-    <http://rt.cpan.org/NoAuth/Bugs.html?Dist=Alien-ODE>
+    <https://github.com/PerlGameDev/Alien-ODE/issues>
 
 AUTHOR
     KMX, <kmx at cpan.org>
