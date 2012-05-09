@@ -30,9 +30,11 @@ sub build_binaries {
 
   my $cxxflags = '-O3';
   $cxxflags   .= " $1" if $Config{cccdlflags} =~ /((-[df]PIC\s+)?-[df]PIC)/i;
+  my $cflags = $cxxflags;
 
   # do 'make install'
   my @cmd = ($self->get_make, 'install');
+  push @cmd, "CFLAGS=$cflags" if $cflags;
   push @cmd, "CXXFLAGS=$cxxflags" if $cxxflags;
 
   print "Running make install ...\n";
