@@ -35,6 +35,7 @@ my $build = $package->new(
     'Archive::Extract' => '0',
     'Archive::Tar'     => '0',
     'Module::Build'    => '0.36',
+    'Test::More'       => '0',
   },
   configure_requires   => {  #need to have for running: perl Build.PL
     'File::Spec'       => '0',
