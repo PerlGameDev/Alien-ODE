@@ -78,7 +78,7 @@ functionality works in a very similar maner to 'ode-config' script:
 
 =head1 BUGS
 
-Please post issues and bugs at L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Alien-ODE>
+Please post issues and bugs at L<https://github.com/PerlGameDev/Alien-ODE/issues>
 
 =head1 AUTHOR
 
