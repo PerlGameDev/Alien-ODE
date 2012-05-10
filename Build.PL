@@ -7,8 +7,8 @@ use My::Utility qw(check_config_script check_src_build);
 
 #### we need the platform-specific module
 my %platforms =(
-       # Unix = default, thus not listing all UNIX like systems
-       MSWin32 => 'Windows',       
+  # Unix = default, thus not listing all UNIX like systems
+  MSWin32 => 'Windows',
 );
 my $package = 'My::Builder::' . ($platforms{$^O} || 'Unix');
 print "Gonna use '$package' class ...\n";
