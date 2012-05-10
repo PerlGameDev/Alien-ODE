@@ -36,7 +36,7 @@ my $build = $package->new(
     'Archive::Tar'     => '0',
     'Module::Build'    => '0.36',
   },
-  configure_requires   => {  #need to have for running: perl Buil.PL
+  configure_requires   => {  #need to have for running: perl Build.PL
     'File::Spec'       => '0',
     'File::Path'       => '2.07',
     'File::Copy'       => '0',
