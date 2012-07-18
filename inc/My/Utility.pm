@@ -17,7 +17,7 @@ my $source_packs = [
     precision => 'single',
     dirname => 'ode-0.12',
     url => 'http://downloads.sourceforge.net/opende/ode-0.12.tar.gz',
-    sha1sum  => '8dc791355494429c1f28b5104675ea2070dec2b1',
+    sha1sum  => 'e555b719d7b94d322ae96a65b4a0a3b97eebdbb1',
     patches => [ ],
   },
 ## you can add another src build set
@@ -26,7 +26,7 @@ my $source_packs = [
     precision => 'double',
     dirname => 'ode-0.12',
     url => 'http://downloads.sourceforge.net/opende/ode-0.12.tar.gz',
-    sha1sum  => '8dc791355494429c1f28b5104675ea2070dec2b1',
+    sha1sum  => 'e555b719d7b94d322ae96a65b4a0a3b97eebdbb1',
     patches => [ ],
   },
 ];
